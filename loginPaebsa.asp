@@ -1278,6 +1278,15 @@ else
 								</div>
 							<!-- termina cuadro de dialogo de archivos EDI -->	
 						</li>
+
+
+						<li>
+						<a href="#" class="composeEdi" id="composeiconEdi" data-i18n="menu.asn.titulo"> Nueva funcion said</a>
+						</li>
+
+
+
+
 						<!-- Modulo_Envio_EDI_Clientes -->
 						
 						<li id="link_cargaInfo"><a href="#" onClick="openBrowser('<%=trim(user)%>','<%=trim(Nombre)%>','ADMIN');" data-i18n="menu.cargaInformacion">&raquo;Carga de informaci&oacute;n</a></li>
@@ -1812,6 +1821,9 @@ else
 					<!-- Cuadro de dialogo. subir facturas -->
 					</li>
 					
+					<li>
+						<a> Nueva funcion said</a>
+						</li>
 					
 					<!-- Modulo_Genera_Addenda_Nube -->
 					<li class="has-sub"><a href="#" data-i18n="[html]menu.generarAddendaAutomatica.titulo"> &raquo; Generar Addenda en la nube</a>
