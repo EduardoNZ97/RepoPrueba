@@ -1282,7 +1282,7 @@ else
 						
 						<li id="link_cargaInfo"><a href="#" onClick="openBrowser('<%=trim(user)%>','<%=trim(Nombre)%>','ADMIN');" data-i18n="menu.cargaInformacion">&raquo;Carga de informaci&oacute;n</a></li>
 						<li><a href="#" onClick="openNoSpots('<%=trim(user)%>','<%=trim(Nombre)%>','ADMIN');" data-i18n="menu.cargaNoSpots">&raquo;Carga de NO SPOTS</a></li>
-						
+					    <li><a href="#">&raquo;Menu Prueba Eder</a></li>
 						<li class="has-sub">
 						<a href="#" data-i18n="menu.administrarCuenta.titulo">&raquo;Administre su cuenta</a>
 							<ul>
@@ -1858,7 +1858,7 @@ else
 					<li id="link_cargaInfo"><a href="#" onclick="openBrowser('<%=trim(user)%>','<%=trim(Nombre)%>','ADMIN');" data-i18n="[html]menu.cargaInformacion"> &raquo;Carga de informaci&oacute;n</a></li>
 					
 					<li><a href="#" onClick="openNoSpots('<%=trim(user)%>','<%=trim(Nombre)%>','ADMIN');" data-i18n="menu.cargaNoSpots">&raquo;Carga de NO SPOTS</a></li>
-					
+					<li><a href="#">&raquo;Menu Prueba Eder</a></li>
 					<li class="has-sub"><a href="#" data-i18n="[html]menu.administrarCuenta.titulo"> &raquo;Administre su cuenta</a>
 						<ul>
 							<li><a href="RegistroUsuarios.asp?ln=<%=lg%>" data-i18n="[html]menu.administrarCuenta.usuarios"> &raquo;Administre sus usuarios </a><br /></li>
