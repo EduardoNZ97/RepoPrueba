@@ -1238,11 +1238,16 @@ else
 						</li>
 						
 						<!-- Modulo_Genera_Addenda_Nube -->
-						<li class="has-sub"><a href="#" data-i18n="[html]menu.generarAddendaAutomatica.titulo"> &raquo; Generar Addenda en la nube</a>
+						<li class="has-sub prueba-git Said-GitPrueba"><a href="#" data-i18n="[html]menu.generarAddendaAutomatica.titulo"> &raquo; Generar Addenda en la nube</a>
 							<ul>
 								<li>
 								<% Call CargaDeAddendaGenerica(pass,user,Nombre,"loginPaebsa.asp?ln="&lg) %><br />
-								</li>			
+								</li>
+								<!--Se duplico para prueba git-->	
+								<li>
+								<% Call reporteBitacoras(pass,user,Nombre)%><br />
+								</li>	
+								<!--Se duplico para prueba git-->			
 							</ul>
 						</li>
 						<!-- Modulo_Genera_Addenda_Nube -->
@@ -1290,8 +1295,8 @@ else
 						<!-- Modulo_Envio_EDI_Clientes -->
 						
 						<li id="link_cargaInfo"><a href="#" onClick="openBrowser('<%=trim(user)%>','<%=trim(Nombre)%>','ADMIN');" data-i18n="menu.cargaInformacion">&raquo;Carga de informaci&oacute;n</a></li>
-						<li><a href="#" onClick="openNoSpots('<%=trim(user)%>','<%=trim(Nombre)%>','ADMIN');" data-i18n="menu.cargaNoSpots">&raquo;Carga de NO SPOTS</a></li>
-						
+						<!--<li><a href="#" onClick="openNoSpots('<%=trim(user)%>','<%=trim(Nombre)%>','ADMIN');" data-i18n="menu.cargaNoSpots">&raquo;Carga de NO SPOTS</a></li>-->
+					    <li><a href="#">&raquo;Menu Prueba Eder</a></li>
 						<li class="has-sub">
 						<a href="#" data-i18n="menu.administrarCuenta.titulo">&raquo;Administre su cuenta</a>
 							<ul>
@@ -1869,8 +1874,8 @@ else
 					
 					<li id="link_cargaInfo"><a href="#" onclick="openBrowser('<%=trim(user)%>','<%=trim(Nombre)%>','ADMIN');" data-i18n="[html]menu.cargaInformacion"> &raquo;Carga de informaci&oacute;n</a></li>
 					
-					<li><a href="#" onClick="openNoSpots('<%=trim(user)%>','<%=trim(Nombre)%>','ADMIN');" data-i18n="menu.cargaNoSpots">&raquo;Carga de NO SPOTS</a></li>
-					
+					<!--<li><a href="#" onClick="openNoSpots('<%=trim(user)%>','<%=trim(Nombre)%>','ADMIN');" data-i18n="menu.cargaNoSpots">&raquo;Carga de NO SPOTS</a></li>-->
+					<li><a href="#">&raquo;Menu Prueba Eder</a></li>
 					<li class="has-sub"><a href="#" data-i18n="[html]menu.administrarCuenta.titulo"> &raquo;Administre su cuenta</a>
 						<ul>
 							<li><a href="RegistroUsuarios.asp?ln=<%=lg%>" data-i18n="[html]menu.administrarCuenta.usuarios"> &raquo;Administre sus usuarios </a><br /></li>
