@@ -1238,11 +1238,16 @@ else
 						</li>
 						
 						<!-- Modulo_Genera_Addenda_Nube -->
-						<li class="has-sub"><a href="#" data-i18n="[html]menu.generarAddendaAutomatica.titulo"> &raquo; Generar Addenda en la nube</a>
+						<li class="has-sub prueba-git"><a href="#" data-i18n="[html]menu.generarAddendaAutomatica.titulo"> &raquo; Generar Addenda en la nube</a>
 							<ul>
 								<li>
 								<% Call CargaDeAddendaGenerica(pass,user,Nombre,"loginPaebsa.asp?ln="&lg) %><br />
-								</li>			
+								</li>
+								<!--Se duplico para prueba git-->	
+								<li>
+								<% Call CargaDeAddendaGenerica(pass,user,Nombre,"loginPaebsa.asp?ln="&lg) %><br />
+								</li>	
+								<!--Se duplico para prueba git-->			
 							</ul>
 						</li>
 						<!-- Modulo_Genera_Addenda_Nube -->
